@@ -1,0 +1,15 @@
+<?xml version="1.0" encoding="utf-8"?>
+<localization>
+	<entity id="deactivated-documentcard">
+		<locale lang="fr">deactivated.documentcard {lang} {documentlabel}</locale>
+	</entity>
+	<entity id="log-deactivated-documentcard">
+		<locale lang="fr">log-deactivated-documentcard</locale>
+	</entity>
+	<entity id="reactivate-documentcard">
+		<locale lang="fr">reactivate.documentcard {lang} {documentlabel}</locale>
+	</entity>
+	<entity id="log-reactivate-documentcard">
+		<locale lang="fr">log-reactivate-documentcard</locale>
+	</entity>
+</localization>

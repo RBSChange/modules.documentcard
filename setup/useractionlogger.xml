@@ -1,0 +1,6 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<script>
+  <binding fileName="modules/useractionlogger/persistentdocument/import/useractionlogger_binding.xml"/>
+  <actiondef modulename="documentcard" actionname="deactivated.documentcard" label="modules.documentcard.bo.useractionlogger.deactivated-documentcard"/>
+  <actiondef modulename="documentcard" actionname="reactivate.documentcard" label="modules.documentcard.bo.useractionlogger.reactivate-documentcard"/>
+</script>

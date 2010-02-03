@@ -1,0 +1,9 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<script>
+	<binding fileName="modules/generic/persistentdocument/import/generic_binding.xml" />
+	<binding name="preferences" className="documentcard_PreferencesScriptDocumentElement" />
+	<binding name="documentcardpreferences" className="documentcard_PreferencesScriptDocumentElement" />
+	
+	
+	<binding name="documentcard" className="documentcard_DocumentcardScriptDocumentElement" />
+</script>

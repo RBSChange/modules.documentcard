@@ -1,0 +1,31 @@
+<?xml version="1.0" encoding="utf-8"?>
+<localization>
+  <entity id="document-name">
+    <locale lang="fr">préférences</locale>
+    <locale lang="de">Präferenzen</locale>
+  </entity>
+  <entity id="edition-form-title">
+    <locale lang="fr">préférences des documents à télécharger</locale>
+    <locale lang="de">Präferenzen Dokumente zum downloaden</locale>
+  </entity>
+  <entity id="nbitemperpage">
+    <locale lang="fr">nombre de liens par page</locale>
+    <locale lang="en">number of links per pages</locale>
+    <locale lang="de">Anzahl Links pro Seite</locale>
+  </entity>
+  <entity id="nbitemperpage-help">
+    <locale lang="fr">indiquez ici le nombre de liens que l'annuaire affichera sur chaque page</locale>
+    <locale lang="en">define number of links shown per pages</locale>
+    <locale lang="de">Geben Sie hier die Anzahl der im Verzeichnis anzuzeigenden Links pro Seite</locale>
+  </entity>
+  <entity id="msgforemptyfolder">
+    <locale lang="fr">texte pour dossier vide</locale>
+    <locale lang="en">text for empty folder</locale>
+    <locale lang="de">Text für leeren Ordner</locale>
+  </entity>
+  <entity id="msgforemptyfolder-help">
+    <locale lang="fr">texte affiché à la place de la liste des liens lorsqu'un dossier est vide</locale>
+    <locale lang="en">texte shown in front-office in case of empty folder</locale>
+    <locale lang="de">angezeigter Text anstelle der Linkliste, wenn ein Ordner leer ist</locale>
+  </entity>
+</localization>

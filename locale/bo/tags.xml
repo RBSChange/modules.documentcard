@@ -1,0 +1,8 @@
+<?xml version="1.0" encoding="utf-8"?>
+<localization>
+  <entity id="documentcard-list">
+    <locale lang="fr">page de liste</locale>
+    <locale lang="en">list page</locale>
+    <locale lang="de">Listenseite</locale>
+  </entity>
+</localization>

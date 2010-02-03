@@ -1,0 +1,10 @@
+<actions extends="generic">
+	<action name="createDocumentcard">
+		<parameter name="listWidget" />
+		<body>
+			<![CDATA[
+				this.createDocumentEditor('modules_documentcard_documentcard', listWidget.getSelectedItems()[0].id);
+			]]>
+		</body>
+	</action>
+</actions>

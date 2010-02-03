@@ -1,0 +1,51 @@
+.documentcard-abstractdirectory-block .column-one{
+	float: left;
+	width: 73.2%;
+	padding: 1.2%;
+	padding-left: 0;
+	margin-top: 12px;
+}
+.documentcard-abstractdirectory-block .column-two{
+	float: left;
+	width: 24.4%;
+	padding: 0 1.2%;
+	padding-right: 0;
+	margin-top: 22px;
+}
+.documentcard-abstractdirectory-block ul.folder-vertical{
+	list-style-type: none;
+}
+.documentcard-abstractdirectory-block ul.folder-vertical li{
+	background: url(/media/frontoffice/folder.png) no-repeat;
+	text-align: left;
+	padding: 2px 0 2px 20px;
+}
+.documentcard-abstractdirectory-block ul.folder-horizontal{
+	list-style-type: none;
+	margin-top: 12px;
+	margin-bottom: 6px;
+}
+.documentcard-abstractdirectory-block ul.folder-horizontal li{
+	display: inline;
+	background: url(/media/frontoffice/breadcrumb_subfolder.png) no-repeat 0 .1em;
+	padding: 2px 0 2px 40px;
+}
+.documentcard-abstractdirectory-block ul.folder-horizontal li.first{
+	background: none;
+	padding: 2px 0 2px 0;
+}
+.documentcard-abstractdirectory-block ul.folder-horizontal li img{
+	margin-right: 6px;
+	vertical-align: middle;
+}
+.documentcard-abstractdirectory-block ol.module-list{
+	list-style: none;
+	margin-top: 20px;
+}
+.documentcard-abstractdirectory-block ol.module-list li{
+	margin-bottom: 20px;
+	display: block;
+	float: left;
+}
+
+@import url(/modules/documentcard/style/frontoffice.!xul.all.css);

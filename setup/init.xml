@@ -1,0 +1,8 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<script>
+	<binding fileName="modules/documentcard/persistentdocument/import/documentcard_binding.xml" />
+	
+	<rootfolder module="preferences">
+		<documentcardpreferences />
+	</rootfolder>
+</script>

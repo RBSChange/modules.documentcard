@@ -1,0 +1,52 @@
+<?xml version="1.0" encoding="utf-8"?>
+<localization>
+  <entity id="document-name">
+    <locale lang="fr">document à télécharger</locale>
+    <locale lang="de">Dokument zum downloaden</locale>
+  </entity>
+  <entity id="edition-form-title">
+    <locale lang="fr">propriétés d'un document à télécharger</locale>
+    <locale lang="en">document properties</locale>
+    <locale lang="de">Eigenschaften Dokument zum downloaden</locale>
+  </entity>
+  <entity id="label">
+    <locale lang="fr">nom</locale>
+    <locale lang="en">label</locale>
+    <locale lang="de">Name</locale>
+  </entity>
+  <entity id="label-help">
+    <locale lang="fr">nom du document à télécharger</locale>
+    <locale lang="fr">document name</locale>
+    <locale lang="de">Name Dokument zum downloaden</locale>
+  </entity>
+  <entity id="file">
+    <locale lang="fr">fichier</locale>
+    <locale lang="en">file</locale>
+    <locale lang="de">Datei</locale>
+  </entity>
+  <entity id="file-help">
+    <locale lang="fr">fichier à télécharger</locale>
+    <locale lang="en">file to be uploaded</locale>
+    <locale lang="de">Datei zum downloaden</locale>
+  </entity>
+  <entity id="comment">
+    <locale lang="fr">commentaire</locale>
+    <locale lang="en">comment</locale>
+    <locale lang="de">Kommentar</locale>
+  </entity>
+  <entity id="comment-help">
+    <locale lang="fr">commentaire associé au lien, affiché sur le site</locale>
+    <locale lang="en">comment shown in front-office</locale>
+    <locale lang="de">Dem Link assoziierter Kommentar, auf der Websaite angezeigt</locale>
+  </entity>
+  <entity id="image">
+    <locale lang="fr">image</locale>
+    <locale lang="en">image</locale>
+    <locale lang="de">Bild</locale>
+  </entity>
+  <entity id="image-help">
+    <locale lang="fr">sélectionnez une image à afficher sur le site pour illustrer le document</locale>
+    <locale lang="en">image</locale>
+    <locale lang="de">Wählen Sie ein Bild, welches auf der Webseite das Dokument abbilden soll</locale>
+  </entity>
+</localization>
