@@ -3,20 +3,36 @@
 	<models>
 		<model name="modules_generic/rootfolder">
 			<children>
-				<child model="modules_website/topic" from="topics"/>
+				<child model="modules_website/websitetopicsfolder" />
+			</children>
+			<drops>
+				<drop model="modules_website/websitetopicsfolder" action="move" />
+			</drops>
+			<contextactions>
+				<contextaction name="edit" />
+				<contextaction name="addTopic" />
+				<contextaction name="openTreeNodeOrder" />		
+			</contextactions>
+		</model>
+	
+		<model name="modules_website/websitetopicsfolder">
+			<children>
+				<child model="modules_website/topic" from="topics" />
+				<child model="modules_website/systemtopic" from="topics" />
 			</children>
 			<columns>
 				<column name="pathOf" label="PathOf" flex="3" />
 			</columns>
 			<contextactions>
-				<contextaction name="edit" />
-				<contextaction name="addTopic" />
-				<contextaction name="openTopicOrder" />
+				<contextaction name="openFolder" />
+				<contextaction name="openTopicOrder"/>
 			</contextactions>
 		</model>
+		
 		<model name="modules_website/topic">
 			<children>
 				<child model="modules_website/topic" />
+				<child model="modules_website/systemtopic" />
 				<child model="modules_documentcard/documentcard" />
 			</children>
 			<drops>
@@ -29,6 +45,25 @@
 				<contextaction name="createDocumentcard" />
 			</contextactions>
 		</model>
+		<model name="modules_website/systemtopic">
+			<children>
+				<child model="modules_website/topic" />
+				<child model="modules_website/systemtopic" />
+				<child model="modules_documentcard/documentcard" />
+			</children>
+			<drops>
+				<drop model="modules_documentcard/documentcard" action="move" />
+				<drop model="modules_media/media" action="createFromMedia" />
+			</drops>
+			<contextactions>
+				<contextaction name="openFolder" />
+				<contextaction name="edit" />
+				<contextaction name="createDocumentcard" />
+			</contextactions>
+		</model>
+		
+		
+		
 		<model name="modules_documentcard/documentcard">
 			<contextactions>
 				<contextaction name="edit" />
@@ -55,5 +90,6 @@
 		<action name="reactivate" permission="ReActivate" icon="reactivate" label="&amp;modules.uixul.bo.actions.ReActivate;" />
 		<action name="openFolder" icon="open-folder" label="&amp;modules.uixul.bo.actions.OpenFolder;" />
 		<action name="createDocumentcard" permission="Insert_documentcard" group="create_" icon="add" label="&amp;modules.documentcard.bo.actions.Create-Documentcard;" />
+		<action name="openTreeNodeOrder" single="true" permission="Order" icon="sort" label="&amp;modules.uixul.bo.actions.Set-children-order;" />
 	</actions>
 </perspective>
