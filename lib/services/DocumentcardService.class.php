@@ -74,11 +74,12 @@ class documentcard_DocumentcardService extends f_persistentdocument_DocumentServ
 	/**
 	 * @param documentcard_persistentdocument_documentcard $document
 	 * @param string $forModuleName
+	 * @param array $allowedSections
 	 * @return array
 	 */
-	public function getResume($document, $forModuleName)
+	public function getResume($document, $forModuleName, $allowedSections = null)
 	{
-		$data = parent::getResume($document, $forModuleName);
+		$data = parent::getResume($document, $forModuleName, $allowedSections);
 		$media = $document->getFile();
 		if ($media->isContextLangAvailable())
 		{
