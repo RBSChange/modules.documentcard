@@ -21,47 +21,29 @@
 
 	<rootfolder module="media">
 		<folder label="Exemple de media Documents à télécharger">
-			<media
-				path="modules/documentcard/setup/sample/plan_icone.gif"
+			<media path="modules/documentcard/setup/sample/plan_icone.gif"
 				label="Icone plan d'accès" title="Icone plan d'accès" id="photo0" />
-			<media
-				path="modules/documentcard/setup/sample/plan_rbs_Rhône Alpes.pdf"
+			<media path="modules/documentcard/setup/sample/plan_rbs_Rhone_Alpes.pdf"
 				label="Plan d'accès RBS Rhône Alpes" title="Plan d'accès RBS Rhône Alpes" id="photo1" />
-			<media
-				path="modules/documentcard/setup/sample/Plan d'accès RBS Paris.pdf"
+			<media path="modules/documentcard/setup/sample/Plan_d_acces_RBS_Paris.pdf"
 				label="Plan d'accès RBS Paris" title="Plan d'accès RBS Paris" id="photo2" />
-			<media
-				path="modules/documentcard/setup/sample/Plan d'accès RBS Siège.pdf"
+			<media path="modules/documentcard/setup/sample/Plan_d_acces_RBS_Siege.pdf"
 				label="Plan d'accès RBS Siège" title="Plan d'accès RBS Siège" id="photo3" />
 		</folder>
 	</rootfolder>
 					
 	<rootfolder module="documentcard">
 		<linkedtopic refid="documentcardtopic">
-			<documentcard label="Plan d'accès RBS Siège" file-refid="photo3"
-				image-refid="photo0" 
-				comment="Sed sapien risus, rhoncus ac, vehicula ac, vulputate ut, nibh. Praesent nisi nulla, bibendum dapibus, tincidunt sed, dapibus ac, orci. Duis vulputate. Morbi nunc. Donec libero nulla, suscipit eget, hendrerit sit amet, sollicitudin et, libero. Integer metus arcu, malesuada et, vestibulum vel, accumsan in, mi. Curabitur molestie. Vestibulum ut purus."
-				/>
-
+			<documentcard label="Plan d'accès RBS Siège" file-refid="photo3" image-refid="photo0" 
+				comment="Sed sapien risus, rhoncus ac, vehicula ac, vulputate ut, nibh. Praesent nisi nulla, bibendum dapibus, tincidunt sed, dapibus ac, orci. Duis vulputate. Morbi nunc. Donec libero nulla, suscipit eget, hendrerit sit amet, sollicitudin et, libero. Integer metus arcu, malesuada et, vestibulum vel, accumsan in, mi. Curabitur molestie. Vestibulum ut purus." />
 			<documentcard label="Plan d'accès RBS Siège (sans icone)" file-refid="photo3"		
-				comment="Sed sapien risus, rhoncus ac, vehicula ac, vulputate ut, nibh. Praesent nisi nulla, bibendum dapibus, tincidunt sed, dapibus ac, orci. Duis vulputate. Morbi nunc. Donec libero nulla, suscipit eget, hendrerit sit amet, sollicitudin et, libero. Integer metus arcu, malesuada et, vestibulum vel, accumsan in, mi. Curabitur molestie. Vestibulum ut purus."
-				/>
-				
+				comment="Sed sapien risus, rhoncus ac, vehicula ac, vulputate ut, nibh. Praesent nisi nulla, bibendum dapibus, tincidunt sed, dapibus ac, orci. Duis vulputate. Morbi nunc. Donec libero nulla, suscipit eget, hendrerit sit amet, sollicitudin et, libero. Integer metus arcu, malesuada et, vestibulum vel, accumsan in, mi. Curabitur molestie. Vestibulum ut purus." />
 			<documentcard label="Plan d'accès RBS Siège (sans commentaire)" file-refid="photo3"
-				image-refid="photo0"
-				/>	
-										
-			<documentcard label="Plan d'accès RBS Rhône Alpes" file-refid="photo1"
-				image-refid="photo0"
-				comment="Sed sapien risus, rhoncus ac, vehicula ac, vulputate ut, nibh. Praesent nisi nulla, bibendum dapibus, tincidunt sed, dapibus ac, orci. Duis vulputate. Morbi nunc. Donec libero nulla, suscipit eget, hendrerit sit amet, sollicitudin et, libero. Integer metus arcu, malesuada et, vestibulum vel, accumsan in, mi. Curabitur molestie. Vestibulum ut purus."
-				/>
-
-			<documentcard label="Plan d'accès RBS Paris" file-refid="photo2"
-				image-refid="photo0"
-				/>
-		
+				image-refid="photo0" />	
+			<documentcard label="Plan d'accès RBS Rhône Alpes" file-refid="photo1" image-refid="photo0"
+				comment="Sed sapien risus, rhoncus ac, vehicula ac, vulputate ut, nibh. Praesent nisi nulla, bibendum dapibus, tincidunt sed, dapibus ac, orci. Duis vulputate. Morbi nunc. Donec libero nulla, suscipit eget, hendrerit sit amet, sollicitudin et, libero. Integer metus arcu, malesuada et, vestibulum vel, accumsan in, mi. Curabitur molestie. Vestibulum ut purus." />
+			<documentcard label="Plan d'accès RBS Paris" file-refid="photo2" image-refid="photo0" />
 			<documentcard label="Plan d'accès RBS Rhône Alpes" file-refid="photo1" />
-	
 			<topic byLabel="Sous rubrique">
 				<documentcard label="Plan d'accès RBS Siège 0" file-refid="photo3" image-refid="photo0" />
 				<documentcard label="Plan d'accès RBS Siège 1" file-refid="photo3" image-refid="photo0" />
@@ -76,6 +58,5 @@
 	</rootfolder>
 	
 	<preferences label="&amp;modules.documentcard.document.preferences.Edition-form-title;" 
-		nbitemperpage="5" 
-		msgforemptyfolder="Cette rubrique ne contient pas de document." />
+		nbitemperpage="5" msgforemptyfolder="Cette rubrique ne contient pas de document." />
 </script>
