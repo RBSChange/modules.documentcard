@@ -4,7 +4,7 @@
 	<binding fileName="modules/website/persistentdocument/import/website_binding.xml" />
 	<binding fileName="modules/documentcard/persistentdocument/import/documentcard_binding.xml" />
 	
-	<website byTag="default_modules_website_default-website" template="tplTwo">
+	<website byTag="default_modules_website_default-website" template="webfactory/tplTwo">
 		<topic label="Documents à télécharger" id="documentcardtopic">
 			<topic label="Sous rubrique" id="documentcardtopicsub"></topic>
 			
