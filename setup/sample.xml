@@ -15,6 +15,7 @@
 				<changecontent for="content-block">
 					<changeblock type="modules_documentcard_contextuallist" />
 				</changecontent>
+				<execute method="setPageRefAsIndex" />
 			</page>	
 		</topic>
 	</website>
