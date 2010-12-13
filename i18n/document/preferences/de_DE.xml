@@ -1,0 +1,9 @@
+<?xml version="1.0" encoding="utf-8"?>
+<i18n baseKey="m.documentcard.document.preferences" lcid="de_DE">
+  <key id="document-name">Präferenzen</key>
+  <key id="edition-form-title">Präferenzen Dokumente zum downloaden</key>
+  <key id="nbitemperpage">Anzahl Links pro Seite</key>
+  <key id="nbitemperpage-help">Geben Sie hier die Anzahl der im Verzeichnis anzuzeigenden Links pro Seite</key>
+  <key id="msgforemptyfolder">Text für leeren Ordner</key>
+  <key id="msgforemptyfolder-help">angezeigter Text anstelle der Linkliste, wenn ein Ordner leer ist</key>
+</i18n>

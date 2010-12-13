@@ -1,0 +1,10 @@
+<?xml version="1.0" encoding="utf-8"?>
+<i18n baseKey="m.documentcard.errors" lcid="de_DE">
+  <key id="modules-documentcard-getpreferencesdocument">Sie haben nicht die Rechte folgende Aktion auszuführen:″Präferenzen öffnen″</key>
+  <key id="modules-documentcard-move-rootfolder">Sie haben nicht die Rechte folgende Aktion auszuführen:″Rubrik hinzufügen″</key>
+  <key id="modules-documentcard-remove-topic">Sie haben nicht die Rechte folgende Aktion auszuführen:″Rubrik löschen″</key>
+  <key id="modules-documentcard-order">Sie haben nicht die Rechte folgende Aktion auszuführen:″Reihenfolge der Elemente ändern″</key>
+  <key id="modules-documentcard-activate-documentcard">Sie haben nicht die Rechte folgende Aktion auszuführen:″Download aktivieren″</key>
+  <key id="modules-documentcard-cancel-documentcard">Sie haben nicht die Rechte folgende Aktion auszuführen:″Dokument downloaden abbrechen″</key>
+  <key id="modules-documentcard-enabled">Sie haben nicht die Rechte folgende Aktion auszuführen:″Zugriff auf das Modul″</key>
+</i18n>

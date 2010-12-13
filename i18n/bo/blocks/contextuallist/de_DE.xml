@@ -1,0 +1,6 @@
+<?xml version="1.0" encoding="utf-8"?>
+<i18n baseKey="m.documentcard.bo.blocks.contextuallist" lcid="de_DE">
+  <key id="displaycontainer">Titel des Ordners anzeigen</key>
+  <key id="order">sortieren</key>
+  <key id="navigation">Navigation</key>
+</i18n>

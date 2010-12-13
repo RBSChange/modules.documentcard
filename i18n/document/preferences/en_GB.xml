@@ -1,0 +1,7 @@
+<?xml version="1.0" encoding="utf-8"?>
+<i18n baseKey="m.documentcard.document.preferences" lcid="en_GB">
+  <key id="nbitemperpage">number of links per pages</key>
+  <key id="nbitemperpage-help">define number of links shown per pages</key>
+  <key id="msgforemptyfolder">text for empty folder</key>
+  <key id="msgforemptyfolder-help">texte shown in front-office in case of empty folder</key>
+</i18n>

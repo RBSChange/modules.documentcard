@@ -1,0 +1,10 @@
+<?xml version="1.0" encoding="utf-8"?>
+<i18n baseKey="m.documentcard.bo.general" lcid="de_DE">
+  <key id="module-name">Neues Dokument zum downloaden</key>
+  <key id="tree-root-name">Dokument zum downloaden</key>
+  <key id="system-folder-name">Dokument zum downloaden</key>
+  <key id="alphanumeric">alphanumerisch</key>
+  <key id="manual">manuell</key>
+  <key id="onlycontainer">nur Ordner</key>
+  <key id="withnavigation">Navigation anzeigen</key>
+</i18n>

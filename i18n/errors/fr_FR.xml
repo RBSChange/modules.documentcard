@@ -1,0 +1,11 @@
+<?xml version="1.0" encoding="utf-8"?>
+<i18n baseKey="m.documentcard.errors" lcid="fr_FR">
+  <key id="modules-documentcard-getpreferencesdocument">vous n'avez pas les permissions suffisantes pour effectuer l'action suivante : ″Ouvrir les préférences″</key>
+  <key id="modules-documentcard-move-rootfolder">vous n'avez pas les permissions suffisantes pour effectuer l'action suivante : ″Ajouter une rubrique″</key>
+  <key id="modules-documentcard-remove-topic">vous n'avez pas les permissions suffisantes pour effectuer l'action suivante : ″Retirer une rubrique″</key>
+  <key id="modules-documentcard-order">vous n'avez pas les permissions suffisantes pour effectuer l'action suivante : ″Modifier l'ordre des éléments″</key>
+  <key id="modules-documentcard-activate-documentcard">vous n'avez pas les permissions suffisantes pour effectuer l'action suivante : ″Activer un téléchargement″</key>
+  <key id="modules-documentcard-cancel-documentcard">vous n'avez pas les permissions suffisantes pour effectuer l'action suivante : ″Annuler un fichier à télécharger″</key>
+  <key id="modules-documentcard-enabled">vous n'avez pas les permissions suffisantes pour effectuer l'action suivante : ″Accès au module″</key>
+  <key id="unexpectederrorincreatefrommedias">une erreur s'est produite pendant l'importation des medias</key>
+</i18n>

@@ -1,0 +1,9 @@
+<?xml version="1.0" encoding="utf-8"?>
+<i18n baseKey="m.documentcard.document.preferences" lcid="fr_FR">
+  <key id="document-name">préférences</key>
+  <key id="edition-form-title">préférences des documents à télécharger</key>
+  <key id="nbitemperpage">nombre de liens par page</key>
+  <key id="nbitemperpage-help">indiquez ici le nombre de liens que l'annuaire affichera sur chaque page</key>
+  <key id="msgforemptyfolder">texte pour dossier vide</key>
+  <key id="msgforemptyfolder-help">texte affiché à la place de la liste des liens lorsqu'un dossier est vide</key>
+</i18n>

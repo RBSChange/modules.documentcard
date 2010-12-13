@@ -1,0 +1,11 @@
+<?xml version="1.0" encoding="utf-8"?>
+<i18n baseKey="m.documentcard.document.documentcard" lcid="en_GB">
+  <key id="edition-form-title">document properties</key>
+  <key id="label">label</key>
+  <key id="file">file</key>
+  <key id="file-help">file to be uploaded</key>
+  <key id="comment">comment</key>
+  <key id="comment-help">comment shown in front-office</key>
+  <key id="image">image</key>
+  <key id="image-help">image</key>
+</i18n>

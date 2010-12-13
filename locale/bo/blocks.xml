@@ -1,8 +1,0 @@
-<?xml version="1.0" encoding="utf-8"?>
-<localization>
-  <entity id="ContextualList">
-    <locale lang="fr">liste de documents</locale>
-    <locale lang="en">documents list</locale>
-    <locale lang="de">Dokumentenliste</locale>
-  </entity>
-</localization>

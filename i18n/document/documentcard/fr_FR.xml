@@ -1,0 +1,13 @@
+<?xml version="1.0" encoding="utf-8"?>
+<i18n baseKey="m.documentcard.document.documentcard" lcid="fr_FR">
+  <key id="document-name">document à télécharger</key>
+  <key id="edition-form-title">propriétés d'un document à télécharger</key>
+  <key id="label">nom</key>
+  <key id="label-help">nom du document à télécharger</key>
+  <key id="file">fichier</key>
+  <key id="file-help">fichier à télécharger</key>
+  <key id="comment">commentaire</key>
+  <key id="comment-help">commentaire associé au lien, affiché sur le site</key>
+  <key id="image">image</key>
+  <key id="image-help">sélectionnez une image à afficher sur le site pour illustrer le document</key>
+</i18n>

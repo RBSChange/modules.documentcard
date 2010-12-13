@@ -1,0 +1,10 @@
+<?xml version="1.0" encoding="utf-8"?>
+<i18n baseKey="m.documentcard.bo.general" lcid="en_GB">
+  <key id="module-name">document card</key>
+  <key id="tree-root-name">document card</key>
+  <key id="system-folder-name">document card</key>
+  <key id="alphanumeric">alphanumeric</key>
+  <key id="manual">manual</key>
+  <key id="onlycontainer">folder only</key>
+  <key id="withnavigation">show navigation</key>
+</i18n>
