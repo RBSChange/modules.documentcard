@@ -104,7 +104,7 @@ class documentcard_DocumentcardService extends f_persistentdocument_DocumentServ
 			$data['content']['previewimgurl'] = array('id' => $media->getId(), 'lang' => $lang);
 			if ($media->getMediatype() == MediaHelper::TYPE_IMAGE)
 			{
-				$data['content']['previewimgurl']['image'] = media_MediaService::getInstance()->generateUrl($media, $lang, array('max-height' => 128, 'max-width' => 128));
+				$data['content']['previewimgurl']['image'] = LinkHelper::getDocumentUrl($media, $lang, array('max-height' => 128, 'max-width' => 128));
 			}
 			else
 			{
