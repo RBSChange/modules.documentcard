@@ -1,3 +1,3 @@
 <tags extends="generic">
-	<tag label="&amp;modules.documentcard.bo.tags.documentcard-list;" icon="list-block">functional_documentcard_documentcard-list</tag>
+	<tag labeli18n="m.documentcard.bo.tags.documentcard-list" icon="list-block">functional_documentcard_documentcard-list</tag>
 </tags>
