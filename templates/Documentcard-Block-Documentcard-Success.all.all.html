@@ -1,4 +1,4 @@
-<h3 change:h="" tal:attributes="id item/getId">${item/getLabelAsHtml} <a change:edit="document item"></a></h3>
+<h3 change:h="" tal:attributes="id item/getId">${structure item/getLabelAsHtml}</h3>
 <img tal:condition="item/getImage" change:media="document item/getImage; format 'modules.media.frontoffice/minithumbnail'; class 'float-left'" />
 <a change:download="item/getFile; class 'link link-arrow'"></a>
-<p>${item/getCommentAsHtml}</p>
+<p>${structure item/getCommentAsHtml}</p>
