@@ -1,9 +1,9 @@
 <?php
-class documentcard_ViewDetailAction extends f_action_BaseAction
+class documentcard_ViewDetailAction extends change_Action
 {
 /**
-	 * @param Context $context
-	 * @param Request $request
+	 * @param change_Context $context
+	 * @param change_Request $request
 	 */
 	public function _execute($context, $request)
 	{
@@ -14,19 +14,19 @@ class documentcard_ViewDetailAction extends f_action_BaseAction
 			{
 				$url = LinkHelper::getDocumentUrl($document->getFile());
 				$context->getController()->redirectToUrl($url);
-				return View::NONE;
+				return change_View::NONE;
 			}
 		}
 		catch (Exception $e)
 		{
 			Framework::exception($e);	
 		}
-		$context->getController()->forward(AG_ERROR_404_MODULE, AG_ERROR_404_ACTION);
-		return View::NONE;
+		$context->getController()->forward('website', 'Error404');
+		return change_View::NONE;
 	}
 
 	/**
-	 * @param Request $request
+	 * @param change_Request $request
 	 */
 	protected function getDocumentIdArrayFromRequest($request)
 	{
