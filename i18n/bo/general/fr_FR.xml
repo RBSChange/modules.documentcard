@@ -1,8 +1,8 @@
 <?xml version="1.0" encoding="utf-8"?>
 <i18n baseKey="m.documentcard.bo.general" lcid="fr_FR">
-  <key id="module-name">documents à télécharger</key>
-  <key id="tree-root-name">documents à télécharger</key>
-  <key id="system-folder-name">documents à télécharger</key>
+  <key id="module-name">document à télécharger</key>
+  <key id="tree-root-name">document à télécharger</key>
+  <key id="system-folder-name">document à télécharger</key>
   <key id="alphanumeric">alphanumérique</key>
   <key id="manual">manuel</key>
   <key id="onlycontainer">dossier seulement</key>
