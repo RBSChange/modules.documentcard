@@ -30,10 +30,10 @@ class documentcard_ViewDetailAction extends change_Action
 	 */
 	protected function getDocumentIdArrayFromRequest($request)
 	{
-		$documentId = $request->getModuleParameter('documentcard', K::COMPONENT_ID_ACCESSOR);
+		$documentId = $request->getModuleParameter('documentcard', change_Request::DOCUMENT_ID);
 		if (null === $documentId)
 		{
-			$documentId = $request->getParameter(K::COMPONENT_ID_ACCESSOR);
+			$documentId = $request->getParameter(change_Request::DOCUMENT_ID);
 		}
 		if (intval($documentId) > 0)
 		{
