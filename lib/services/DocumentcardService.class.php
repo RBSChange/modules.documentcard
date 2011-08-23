@@ -13,7 +13,7 @@ class documentcard_DocumentcardService extends f_persistentdocument_DocumentServ
 	{
 		if (self::$instance === null)
 		{
-			self::$instance = self::getServiceClassInstance(get_class());
+			self::$instance = new self();
 		}
 		return self::$instance;
 	}

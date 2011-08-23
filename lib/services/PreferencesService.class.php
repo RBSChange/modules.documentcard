@@ -17,7 +17,7 @@ class documentcard_PreferencesService extends f_persistentdocument_DocumentServi
 	{
 		if (self::$instance === null)
 		{
-			self::$instance = self::getServiceClassInstance(get_class());
+			self::$instance = new self();
 		}
 		return self::$instance;
 	}
