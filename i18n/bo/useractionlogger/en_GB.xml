@@ -1,0 +1,7 @@
+<?xml version="1.0" encoding="utf-8"?>
+<i18n baseKey="m.documentcard.bo.useractionlogger" lcid="en_GB">
+  <key id="deactivated-documentcard">deactivated.documentcard {lang} {documentlabel}</key>
+  <key id="log-deactivated-documentcard">log-deactivated-documentcard</key>
+  <key id="log-reactivate-documentcard">log-reactivate-documentcard</key>
+  <key id="reactivate-documentcard">reactivate.documentcard {lang} {documentlabel}</key>
+</i18n>

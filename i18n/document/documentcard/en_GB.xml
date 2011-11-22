@@ -1,11 +1,13 @@
 <?xml version="1.0" encoding="utf-8"?>
 <i18n baseKey="m.documentcard.document.documentcard" lcid="en_GB">
-  <key id="edition-form-title">document properties</key>
+  <key id="edition-form-title">downloadable document properties</key>
   <key id="label">label</key>
   <key id="file">file</key>
-  <key id="file-help">file to be uploaded</key>
+  <key id="file-help">downloadable file</key>
   <key id="comment">comment</key>
-  <key id="comment-help">comment shown in front-office</key>
+  <key id="comment-help">Comment related to the link, shown on the site.</key>
   <key id="image">image</key>
-  <key id="image-help">image</key>
+  <key id="image-help">Select an image to display on the site to illustrate the document.</key>
+  <key id="document-name">downloadable document</key>
+  <key id="label-help">Name of downloadable document.</key>
 </i18n>

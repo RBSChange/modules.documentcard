@@ -1,11 +1,11 @@
 <?xml version="1.0" encoding="utf-8"?>
 <i18n baseKey="m.documentcard.errors" lcid="en_GB">
-  <key id="modules-documentcard-getpreferencesdocument">you don't have the appropriate permission to perform this operation : ″Open preferences window″</key>
-  <key id="modules-documentcard-move-rootfolder">you don't have the appropriate permission to perform this operation : ″Add a topic″</key>
-  <key id="modules-documentcard-remove-topic">you don't have the appropriate permission to perform this operation : ″Remove a topic″</key>
-  <key id="modules-documentcard-order">you don't have the appropriate permission to perform this operation : ″Sort out the elements″</key>
-  <key id="modules-documentcard-activate-documentcard">you don't have the appropriate permission to perform this operation : ″Activate a file″</key>
-  <key id="modules-documentcard-cancel-documentcard">you don't have the appropriate permission to perform this operation : ″Cancel a file″</key>
-  <key id="modules-documentcard-enabled">you don't have the appropriate permission to perform this operation : ″Access to the module″</key>
-  <key id="unexpectederrorincreatefrommedias">an error occured while importing medias</key>
+  <key id="modules-documentcard-getpreferencesdocument">you do not have the appropriate permissions to perform the following operation: "Open preferences"</key>
+  <key id="modules-documentcard-move-rootfolder">you do not have the appropriate permissions to perform the following operation: "Add a topic"</key>
+  <key id="modules-documentcard-remove-topic">you do not have the appropriate permissions to perform the following operation: "Remove a topic"</key>
+  <key id="modules-documentcard-order">you do not have the appropriate permissions to perform the following operation: "Reorder the elements"</key>
+  <key id="modules-documentcard-activate-documentcard">you do not have the appropriate permissions to perform the following operation: "Activate download"</key>
+  <key id="modules-documentcard-cancel-documentcard">you do not have the appropriate permissions to perform the following operation: "Cancel downloadable file"</key>
+  <key id="modules-documentcard-enabled">you do not have the appropriate permissions to perform the following operation: "Access the module"</key>
+  <key id="unexpectederrorincreatefrommedias">an error occurred during media import</key>
 </i18n>
